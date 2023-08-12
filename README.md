@@ -4,7 +4,7 @@ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cud
 pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
 
 pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
-
+## Run
 ```python
 # Cora
 python main.py --der1 0.4 --der2 0.4 --dfr1 0.5 --dfr2 0.8 --temp 0.7
