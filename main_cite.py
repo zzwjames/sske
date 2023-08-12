@@ -32,7 +32,6 @@ class LogReg(nn.Module):
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataname', type=str, default='cora')
 parser.add_argument('--gpu', type=int, default=0)
-parser.add_argument('--split', type=str, default='random')
 parser.add_argument('--use_mlp', type=bool, default=False, help='Specify whether to use MLP')
 
 parser.add_argument('--epochs', type=int, default=500, help='Number of training periods.')
