@@ -148,7 +148,7 @@ if __name__ == '__main__':
     # Step 5: Linear evaluation ============================================================== #
 
         if epoch > args.epochs-2:
-            embeds = model.get_embedding_2(graph_cuda, feat)
+            embeds = model.get_embedding_1(graph_cuda, feat)
             train_embs = embeds[train_idx]
             val_embs = embeds[val_idx]
             test_embs = embeds[test_idx]
